@@ -35,6 +35,7 @@ def fake_model_response(request_payload):
     return response
 
 
+
 while True:
     user_input = input("You: ")
 
