@@ -18,6 +18,7 @@ def ask_ai(client,prompt):
     return response.choices[0].message.content
 
 
+
 def main():
     client=create_client()
     print("AI Assistant(type 'exit' to quit)\n")
